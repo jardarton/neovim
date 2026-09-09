@@ -230,6 +230,22 @@
         "type": "github"
       }
     },
+    "plugins-herdr-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1788469271,
+        "narHash": "sha256-NAwzjZ4Ms7gDcFooCPLMZW0vrlq/Fq+XvVxUUamA4RI=",
+        "owner": "ChmaraX",
+        "repo": "herdr-nvim",
+        "rev": "e652ebf7b3d6713992e68a30aec588822e69fae5",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ChmaraX",
+        "repo": "herdr-nvim",
+        "type": "github"
+      }
+    },
     "plugins-lze": {
       "flake": false,
       "locked": {
@@ -336,6 +352,7 @@
         "plugins-blink-indent": "plugins-blink-indent",
         "plugins-delta-lua": "plugins-delta-lua",
         "plugins-deltaview": "plugins-deltaview",
+        "plugins-herdr-nvim": "plugins-herdr-nvim",
         "plugins-lze": "plugins-lze",
         "plugins-lzextras": "plugins-lzextras",
         "plugins-nvim-ansible": "plugins-nvim-ansible",

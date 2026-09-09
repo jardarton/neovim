@@ -14,8 +14,14 @@ function M.setup()
 
 	-- Only the UI primitives used by the local Pi integration.
 	require("snacks").setup({ input = { enabled = true }, picker = { enabled = true } })
-	require("config.plugins").setup({ "plugins.themes", "plugins.treesitter", "plugins.fff", "plugins.yazi" })
-	require("pi").setup()
+	require("config.plugins").setup({
+		"plugins.themes",
+		"plugins.treesitter",
+		"plugins.fff",
+		"plugins.yazi",
+		"plugins.pi",
+		"plugins.herdr",
+	})
 
 	require("config.pack").load("blink.cmp")
 	require("blink.cmp").setup({
