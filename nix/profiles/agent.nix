@@ -21,7 +21,6 @@
       [
         config.nvim-lib.neovimPlugins.lze
         config.nvim-lib.neovimPlugins.lzextras
-        config.nvim-lib.neovimPlugins.herdr-nvim
         inputs.fff-nvim.packages.${pkgs.stdenv.hostPlatform.system}.fff-nvim
         yazi-nvim
         snacks-nvim
