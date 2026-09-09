@@ -142,6 +142,7 @@ local eager_modules = {
 	"plugins.linting",
 	"plugins.markdown",
 	"plugins.pi",
+	"plugins.herdr",
 	"plugins.harpoon",
 	"plugins.flash",
 	"plugins.notify",

@@ -46,6 +46,7 @@ let
     };
 
     opts = {
+      agentIntegration = config.settings.agentIntegration;
       welcome = {
         snacks = true;
         alpha = false;
@@ -99,6 +100,15 @@ in
     type = lib.types.str;
     default = "kanagawa";
     description = "Theme name exported to Lua metadata.";
+  };
+
+  options.settings.agentIntegration = lib.mkOption {
+    type = lib.types.enum [
+      "herdr"
+      "pi"
+    ];
+    default = "herdr";
+    description = "Mutually exclusive Neovim agent integration to enable.";
   };
 
   config.settings.config_directory = ./.;
@@ -158,6 +168,7 @@ in
       [
         config.nvim-lib.neovimPlugins.lze
         config.nvim-lib.neovimPlugins.lzextras
+        config.nvim-lib.neovimPlugins.herdr-nvim
         inputs.fff-nvim.packages.${pkgs.stdenv.hostPlatform.system}.fff-nvim
         fzf-lua
         yazi-nvim

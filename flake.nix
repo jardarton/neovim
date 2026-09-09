@@ -59,6 +59,11 @@
       flake = false;
     };
 
+    plugins-herdr-nvim = {
+      url = "github:ChmaraX/herdr-nvim";
+      flake = false;
+    };
+
     fff-nvim = {
       url = "github:dmtrKovalenko/fff.nvim";
       inputs.nixpkgs.follows = "nixpkgs";
