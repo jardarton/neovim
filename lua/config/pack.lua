@@ -57,7 +57,6 @@ M.plugins = {
 	plugin("kokusenz/delta.lua"),
 	plugin("kokusenz/deltaview.nvim"),
 	plugin("dmtrKovalenko/fff.nvim"),
-	plugin("ChmaraX/herdr-nvim"),
 }
 
 M.lazy_plugins = {

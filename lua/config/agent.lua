@@ -20,7 +20,6 @@ function M.setup()
 		"plugins.fff",
 		"plugins.yazi",
 		"plugins.pi",
-		"plugins.herdr",
 	})
 
 	require("config.pack").load("blink.cmp")
