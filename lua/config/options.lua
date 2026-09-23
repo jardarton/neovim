@@ -47,7 +47,7 @@ vim.opt.autoread = true
 
 vim.g.border_style = "rounded"
 
-vim.opt.clipboard = "unnamedplus" -- use system cliipboard
+require("config.clipboard").setup()
 
 vim.opt.ignorecase = true --comamnds ignore casing
 
